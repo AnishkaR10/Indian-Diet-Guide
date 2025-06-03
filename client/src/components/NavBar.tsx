@@ -77,14 +77,14 @@ const Navbar: React.FC = () => {
             <div className="hidden md:block">
               <div className="flex items-center space-x-8">
                 <button
-                  onClick={() => scrollToSection("home")}
+                  onClick={() => window.open("https://swasthyaai-homepage.onrender.com/", "_blank")}
                   className="text-white hover:text-primary font-medium transition duration-300 relative group"
                 >
                   Home
                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary group-hover:w-full transition-all duration-300"></span>
                 </button>
                 <button
-                  onClick={() => scrollToSection("bmi")}
+                  onClick={() => window.open("https://bmi-calculator-3oj5.onrender.com", "_blank")}
                   className="text-white hover:text-primary font-medium transition duration-300 relative group"
                 >
                   BMI
@@ -93,7 +93,7 @@ const Navbar: React.FC = () => {
                 <div className="relative group">
                   <button
                     className="text-white hover:text-primary font-medium transition duration-300 flex items-center group"
-                    onClick={toggleExploreMenu}
+                    onClick={() => window.open("https://smart-health-log-via-whatsapp.onrender.com/", "_blank")}
                   >
                     Health Logger
                     <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary group-hover:w-full transition-all duration-300"></span>
