@@ -25,7 +25,7 @@ const Home: FC = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-3xl md:text-4xl font-semibold text-gray-800 mb-3">
-              Indian Diet Recommender
+              WiseBites
             </h1>
             <p className="text-gray-600 text-lg mb-8">
               Get personalized Indian recipe recommendations based on your preferences and dietary needs.
