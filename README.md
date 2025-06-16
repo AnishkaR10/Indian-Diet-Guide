@@ -21,7 +21,7 @@ It also features a chatbot that assists users in choosing the right diet and und
 - **Backend**: Python (Flask)  
 - **ML Model**: Scikit-learn (KNN classifier)  
 - **Data Source**: Indian meal datasets
-- **Google Gemini APi Integration**
+- **Google Gemini API Integration**
 - **Google Colab**
 ---
 
